@@ -1,0 +1,14 @@
+{
+  "framework": "nextjs",
+  "buildCommand": "npx prisma generate && next build",
+  "outputDirectory": ".next",
+  "installCommand": "npm install",
+  "env": {
+    "DATABASE_URL": "@database_url",
+    "ADMIN_SECRET": "@admin_secret",
+    "COOK_EMAIL": "@cook_email",
+    "RESEND_API_KEY": "@resend_api_key",
+    "WHATSAPP_NUMBER": "@whatsapp_number"
+  },
+  "crons": []
+}
